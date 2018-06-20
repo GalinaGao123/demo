@@ -22,7 +22,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
 @keyframes breathe {
   0% {
     opacity: 0;
@@ -42,15 +42,16 @@ export default {
   color: #ffffff;
   margin: 0 auto;
   position: relative;
+
+  .breathe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(15, 220, 255, 0.4);
+    animation: breathe 2s ease-in-out infinite;
+  }
 }
 
-.breathe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(15, 220, 255, 0.4);
-  animation: breathe 2s ease-in-out infinite;
-}
 </style>
