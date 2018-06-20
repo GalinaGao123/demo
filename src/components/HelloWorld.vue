@@ -31,7 +31,6 @@ export default {
   background-color: #0fdcff;
   width: 80px;
   height: 80px;
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,7 +45,6 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 50%;
   background-color: rgb(15, 220, 255, 0.4);
   animation: breathe 2s ease-in-out infinite;
 }
