@@ -1,17 +1,22 @@
 <template>
   <div class="hello">
-    <span>hello</span>
+    <icon type="waiting" />
     <div class="breathe"></div>
   </div>
 </template>
 
 <script>
+import { Icon } from 'vux'
+
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  components: {
+    Icon
   }
 }
 </script>
